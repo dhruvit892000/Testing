@@ -28,3 +28,9 @@ WebElement dropdown = driver.findElement(By.id("option"));
 Select selectObject  = new Select(dropdown);
 SelectObject.selectByIndex(1);
                     .seelctByValue(value);
+
+
+
+//WebElement fruit = driver.findElement(By.cssSelector("#fruits .tomatoes"));
+  
+		    
