@@ -1,0 +1,16 @@
+Web Drivers
+
+package test
+import package name
+
+public class firstTest
+{
+public static void main(String args[])
+{
+	System.setProperty("Webdriver.chrome.driver","path");
+      WebDriver driver = new ChromeDriver();
+
+	driver.get("https://google.com");
+    driver.close();
+}
+}

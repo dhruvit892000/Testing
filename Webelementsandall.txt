@@ -1,0 +1,30 @@
+package test
+import package
+
+public class elements
+{
+	main
+{
+		WebDriverManager.chromedriver().setup();
+	WebDriver driver = new ChromeDriver();
+	driver.get("https://google.com");
+	WebElement searchBox = driver.findElement(By.name("q"));
+searchBox.sendKeys("ABCD",keys.ENTER);
+driver.close();
+driver.quit();
+}
+}
+
+//checkbox
+driver.get
+driver.findElement(By.xPath("//input[@type='checkbox'][1]"));
+
+// Dropdown
+import select class from selenium
+
+driver.get()
+WebElement dropdown = driver.findElement(By.id("option"));
+
+Select selectObject  = new Select(dropdown);
+SelectObject.selectByIndex(1);
+                    .seelctByValue(value);

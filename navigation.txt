@@ -1,0 +1,21 @@
+Navigation
+
+package test
+import package
+
+public class Browser
+{
+	public static void main(String args[])
+      {
+		System.setProperty("Webdriver.Chrome.driver","path")
+		WebDriver driver = new ChromeDriver()
+
+           //driver.get("https://google.com");
+		driver.navigate().to("https://automationstepbystep.com");
+		System.out.println(driver.getCurrentUrl());
+		driver.switchTo().newWindow(WindowType.WINDOW);
+
+		driver.close();
+		driver.quit();
+	}
+}
